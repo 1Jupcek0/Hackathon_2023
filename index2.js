@@ -134,7 +134,7 @@ function bin2String(array) {
 }
 
 const PORT = 5001
-const HOST = '172.21.16.63'
+const HOST = 'localhost'
 
 app.listen(PORT, HOST, () => {
     console.log(`server is running: http://${HOST}:${PORT}`);
